@@ -1,3 +1,4 @@
+// Pairs a,b and c,d are called symmetric if a = d and b = c
 class checkPairs{
   public static String findPair(int arr[][]){
     HashMap<Integer, Integer> map = new HashMap<>();
