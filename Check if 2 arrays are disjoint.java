@@ -1,3 +1,4 @@
+// 2 arrays are said to be disjoint if they have nothing in common , their intersection gives phi
 // Intution -> store elements of 1st arr in hashset , iterate on second arr and check set if it contains same value -> not disjoint , else disjoint
 public class Solution{
   public static boolean isDisjoint(int arr1[], int arr2[]){
