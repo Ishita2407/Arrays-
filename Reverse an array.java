@@ -1,3 +1,4 @@
+// Solution1
 class Solution {
     public int[] reverseArray(int arr[]) {
         int n = arr.length;
@@ -10,4 +11,12 @@ class Solution {
         }
         return ans;
     }
+}
+
+
+// Solution 2
+f(l, r){
+    if(l >= r) return;
+    swap(arr[l], arr[r]);
+    f(l + 1, r- 1);
 }
